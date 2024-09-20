@@ -57,7 +57,7 @@ class Residente extends BaseController
         
         $identificacion = $this->request->getVar('identificacion');
         
-        if ($data['tb_residente'] = $residente->where('id_residente', $identificacion)->first()) {
+        if ($data['tb_residente'] = $residente->where('identificacion', $identificacion)->first()) {
             
             $data = [
                 //'id_residente' => $this->request->getVar('id_residente'),
