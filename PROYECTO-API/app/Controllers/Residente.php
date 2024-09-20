@@ -55,9 +55,9 @@ class Residente extends BaseController
     try {
         $residente = new ResidenteModel();
         
-        $id_residente = $this->request->getVar('id_residente');
+        $identificacion = $this->request->getVar('identificacion');
         
-        if ($data['tb_residente'] = $residente->where('id_residente', $id_residente)->first()) {
+        if ($data['tb_residente'] = $residente->where('id_residente', $identificacion)->first()) {
             
             $data = [
                 //'id_residente' => $this->request->getVar('id_residente'),
@@ -71,7 +71,7 @@ class Residente extends BaseController
                 
             ];
 
-            $residente->update($id_residente, $data);
+            $residente->update($identificacion, $data);
 
             $result["message"] = 'Updated successfully';
             $result["state"] = 200;
