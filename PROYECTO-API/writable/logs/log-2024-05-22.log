@@ -1,0 +1,195 @@
+CRITICAL - 2024-05-22 01:35:30 --> ErrorException: Undefined variable $ParqueaderoModel
+in APPPATH\Controllers\Parqueadero.php on line 29.
+ 1 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ParqueaderoModel', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 01:36:45 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1781.
+ 1 SYSTEMPATH\BaseModel.php(1781): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(959): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 01:37:47 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1781.
+ 1 SYSTEMPATH\BaseModel.php(1781): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(959): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 01:44:00 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1781.
+ 1 SYSTEMPATH\BaseModel.php(1781): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(959): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 01:44:28 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1781.
+ 1 SYSTEMPATH\BaseModel.php(1781): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(959): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 01:44:50 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1781.
+ 1 SYSTEMPATH\BaseModel.php(1781): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(959): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 01:46:00 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1781.
+ 1 SYSTEMPATH\BaseModel.php(1781): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(959): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 01:48:33 --> ErrorException: Undefined variable $id
+in APPPATH\Controllers\Parqueadero.php on line 29.
+ 1 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 02:02:48 --> Error: Call to undefined method App\Controllers\Parqueadero::getVar()
+in APPPATH\Controllers\Parqueadero.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 02:04:21 --> Error: Call to undefined function App\Controllers\getVar()
+in APPPATH\Controllers\Parqueadero.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 02:04:57 --> ErrorException: Undefined variable $datos
+in APPPATH\Controllers\Parqueadero.php on line 22.
+ 1 APPPATH\Controllers\Parqueadero.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 02:05:05 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Parqueadero.php on line 22.
+ 1 APPPATH\Controllers\Parqueadero.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 02:05:16 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Parqueadero.php on line 24.
+ 1 APPPATH\Controllers\Parqueadero.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 02:13:52 --> ErrorException: Undefined property: App\Controllers\Parqueadero::$db
+in APPPATH\Controllers\Parqueadero.php on line 22.
+ 1 APPPATH\Controllers\Parqueadero.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Parqueadero::$db', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 02:15:30 --> ErrorException: Undefined variable $id_ubicacion
+in APPPATH\Controllers\Parqueadero.php on line 22.
+ 1 APPPATH\Controllers\Parqueadero.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_ubicacion', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 02:18:22 --> Firebase\JWT\ExpiredException: Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 176.
+ 1 APPPATH\Filters\AuthFilter.php(48): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTcxNjMzNzEyMywiZXhwIjoxNzE2MzQwNzIzLCJlbWFpbCI6ImNhbWlsbzFAZ21haWwuY29tIn0.GCCN_IHr5Q_YUE-5hVgnJp85t_08H9Zy9IHKpRdBMew', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('api/parqueadero', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 02:34:54 --> Error: Call to undefined method App\Controllers\Parqueadero::respond()
+in APPPATH\Controllers\Parqueadero.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 23:51:28 --> Firebase\JWT\ExpiredException: Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 176.
+ 1 APPPATH\Filters\AuthFilter.php(48): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTcxNjM0MTcwMywiZXhwIjoxNzE2MzQ1MzAzLCJlbWFpbCI6ImNhbWlsbzFAZ21haWwuY29tIn0.MvhrcvauVXDr3Bt0W7Chd6yzciyhEzpVBhVILVfAwSQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('api/parqueadero', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 23:52:01 --> Error: Call to undefined method App\Controllers\Parqueadero::respond()
+in APPPATH\Controllers\Parqueadero.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 23:57:34 --> Error: Call to undefined method App\Controllers\Parqueadero::respond()
+in APPPATH\Controllers\Parqueadero.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 23:58:27 --> Error: Call to undefined method CodeIgniter\HTTP\Response::respond()
+in APPPATH\Controllers\Parqueadero.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 23:59:02 --> ErrorException: Undefined variable $response
+in APPPATH\Controllers\Parqueadero.php on line 31.
+ 1 APPPATH\Controllers\Parqueadero.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-22 23:59:52 --> Error: Call to undefined method App\Controllers\Parqueadero::respond()
+in APPPATH\Controllers\Parqueadero.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')

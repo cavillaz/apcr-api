@@ -1,0 +1,8 @@
+CRITICAL - 2024-05-21 23:51:56 --> Firebase\JWT\ExpiredException: Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 176.
+ 1 APPPATH\Filters\AuthFilter.php(48): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTcxNjI1MzA4OCwiZXhwIjoxNzE2MjU2Njg4LCJlbWFpbCI6ImNhbWlsb0BnbWFpbC5jb20ifQ.XMIuU1xjbPb1ZhrTVHagc2tkdIzzgBru3aPHlznnC34', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('api/parqueadero', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')

@@ -1,0 +1,540 @@
+CRITICAL - 2024-05-23 00:02:58 --> Error: Call to undefined method App\Controllers\Parqueadero::respond()
+in APPPATH\Controllers\Parqueadero.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 00:04:31 --> Error: Call to undefined method App\Controllers\Parqueadero::respond()
+in APPPATH\Controllers\Parqueadero.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 00:06:01 --> Error: Call to undefined method App\Controllers\Parqueadero::respond()
+in APPPATH\Controllers\Parqueadero.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 00:17:37 --> ErrorException: Undefined variable $parqueadero
+in APPPATH\Controllers\Parqueadero.php on line 21.
+ 1 APPPATH\Controllers\Parqueadero.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parqueadero', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 00:18:17 --> ErrorException: Undefined variable $parqueadero
+in APPPATH\Controllers\Parqueadero.php on line 21.
+ 1 APPPATH\Controllers\Parqueadero.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parqueadero', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 00:19:09 --> ErrorException: Undefined variable $parqueadero
+in APPPATH\Controllers\Parqueadero.php on line 21.
+ 1 APPPATH\Controllers\Parqueadero.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parqueadero', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 00:19:32 --> ErrorException: Undefined variable $parqueadero
+in APPPATH\Controllers\Parqueadero.php on line 21.
+ 1 APPPATH\Controllers\Parqueadero.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parqueadero', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 00:21:39 --> Error: Call to undefined method App\Controllers\Parqueadero::respond()
+in APPPATH\Controllers\Parqueadero.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 00:22:04 --> Error: Call to undefined method App\Controllers\Parqueadero::respond()
+in APPPATH\Controllers\Parqueadero.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 01:35:22 --> Firebase\JWT\ExpiredException: Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 176.
+ 1 APPPATH\Filters\AuthFilter.php(48): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTcxNjQyMTkwMSwiZXhwIjoxNzE2NDI1NTAxLCJlbWFpbCI6ImNhbWlsbzFAZ21haWwuY29tIn0.1SlAEe2DCu_ZvyiHogtfd7aEHeXon4fid9V8aIhyhaU', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('api/parqueadero', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+ERROR - 2024-05-23 01:35:36 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'baseapcr', 3306, '', 0)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Login->index()
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-23 01:35:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+ERROR - 2024-05-23 01:36:45 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'baseapcr', 3306, '', 0)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Login->index()
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-23 01:36:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+ERROR - 2024-05-23 01:39:45 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'baseapcr', 3306, '', 0)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Login->index()
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-23 01:39:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 01:42:26 --> ErrorException: Undefined variable $ParqueaderoModel
+in APPPATH\Controllers\Parqueadero.php on line 30.
+ 1 APPPATH\Controllers\Parqueadero.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ParqueaderoModel', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 01:43:58 --> ErrorException: Undefined variable $ParqueaderoModel
+in APPPATH\Controllers\Parqueadero.php on line 29.
+ 1 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ParqueaderoModel', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 01:44:38 --> ErrorException: Undefined variable $ParqueaderoModel
+in APPPATH\Controllers\Parqueadero.php on line 29.
+ 1 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ParqueaderoModel', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 01:45:44 --> ErrorException: Undefined variable $ParqueaderoModel
+in APPPATH\Controllers\Parqueadero.php on line 29.
+ 1 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ParqueaderoModel', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 01:46:08 --> ErrorException: Undefined variable $ParqueaderoModel
+in APPPATH\Controllers\Parqueadero.php on line 29.
+ 1 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ParqueaderoModel', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 01:46:26 --> ErrorException: Undefined variable $ParqueaderoModel
+in APPPATH\Controllers\Parqueadero.php on line 29.
+ 1 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ParqueaderoModel', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 01:46:45 --> ErrorException: Undefined variable $ParqueaderoModel
+in APPPATH\Controllers\Parqueadero.php on line 29.
+ 1 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ParqueaderoModel', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 01:47:12 --> ErrorException: Undefined variable $ParqueaderoModel
+in APPPATH\Controllers\Parqueadero.php on line 30.
+ 1 APPPATH\Controllers\Parqueadero.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ParqueaderoModel', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 01:49:02 --> ErrorException: Undefined variable $ParqueaderoModel
+in APPPATH\Controllers\Parqueadero.php on line 29.
+ 1 APPPATH\Controllers\Parqueadero.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ParqueaderoModel', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 01:53:00 --> TypeError: json_encode(): Argument #2 ($flags) must be of type int, array given
+in APPPATH\Controllers\Parqueadero.php on line 30.
+ 1 APPPATH\Controllers\Parqueadero.php(30): json_encode('05', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 01:56:43 --> Error: Call to undefined method App\Controllers\Parqueadero::respond()
+in APPPATH\Controllers\Parqueadero.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 02:00:31 --> Error: Call to undefined method App\Controllers\Parqueadero::respond()
+in APPPATH\Controllers\Parqueadero.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 02:04:42 --> Error: Call to undefined method App\Controllers\Parqueadero::respond()
+in APPPATH\Controllers\Parqueadero.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-23 20:48:58 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-23 20:48:59 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 20:49:26 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-23 20:49:26 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 20:49:52 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-23 20:49:52 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 20:50:24 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-23 20:50:24 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 20:50:40 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-23 20:50:40 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 20:58:45 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-23 20:58:45 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 21:02:21 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-23 21:02:21 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 23:18:59 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-23 23:18:59 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 23:22:55 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-23 23:22:55 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-05-23 21:25:50 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'baseapcr' in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'baseapcr', 3306, '', 0)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Login->index()
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'baseapcr' in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-05-23 21:25:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'baseapcr'
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(19): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')

@@ -1,0 +1,32 @@
+CRITICAL - 2024-06-26 00:52:53 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$getVar
+in APPPATH\Controllers\Residente.php on line 69.
+ 1 APPPATH\Controllers\Residente.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getVar', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Residente.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-26 00:56:19 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$getVar
+in APPPATH\Controllers\Residente.php on line 69.
+ 1 APPPATH\Controllers\Residente.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getVar', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Residente.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-26 01:04:51 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$getVar
+in APPPATH\Controllers\Residente.php on line 69.
+ 1 APPPATH\Controllers\Residente.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getVar', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Residente.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-26 01:24:22 --> Firebase\JWT\SignatureInvalidException: Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 150.
+ 1 APPPATH\Filters\AuthFilter.php(48): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTcxNjM0MTcwMywiZXhwIjoxNzE2MzQ1MzAzLCJlbWFpbCI6ImNhbWlsbzFAZ21haWwuY29tIn0.MvhrcvauVXDr3Bt0W7Chd6yzciyhEzpVBhVILVfAwSQ', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('api/parqueadero', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')

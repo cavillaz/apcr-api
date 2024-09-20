@@ -1,0 +1,54 @@
+CRITICAL - 2024-05-24 00:08:52 --> ErrorException: Undefined variable $ParqueaderoModel
+in APPPATH\Controllers\Parqueadero.php on line 23.
+ 1 APPPATH\Controllers\Parqueadero.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ParqueaderoModel', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-24 00:09:28 --> ErrorException: Undefined variable $id_ubicacion
+in APPPATH\Controllers\Parqueadero.php on line 23.
+ 1 APPPATH\Controllers\Parqueadero.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_ubicacion', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-24 00:11:25 --> ErrorException: Undefined variable $id_ubicacion
+in APPPATH\Controllers\Parqueadero.php on line 22.
+ 1 APPPATH\Controllers\Parqueadero.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_ubicacion', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-24 00:11:46 --> ErrorException: Undefined variable $id_ubicacion
+in APPPATH\Controllers\Parqueadero.php on line 23.
+ 1 APPPATH\Controllers\Parqueadero.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_ubicacion', 'C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\app\\Controllers\\Parqueadero.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-24 00:20:47 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\Parqueadero.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Parqueadero->update()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parqueadero))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-24 01:11:05 --> Firebase\JWT\ExpiredException: Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 176.
+ 1 APPPATH\Filters\AuthFilter.php(48): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTcxNjUwNzM4NCwiZXhwIjoxNzE2NTEwOTg0LCJlbWFpbCI6ImNhbWlsbzFAZ21haWwuY29tIn0.U8VV40GgjdRlRkvCeTzZjN4HXc3IywrOKuZSjOUa0hc', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('api/parqueadero', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-05-24 02:03:21 --> Error: Class "App\Models\ResidenteModel" not found
+in APPPATH\Controllers\Residente.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')

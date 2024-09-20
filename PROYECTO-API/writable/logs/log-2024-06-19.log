@@ -1,0 +1,398 @@
+ERROR - 2024-06-19 00:49:44 --> mysqli_sql_exception: Table 'baseapcr.users' doesn't exist in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('camilovillla@gm...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'camilovillla@gm...', Array, Array)
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Register.php(21): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Register->index()
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-06-19 00:49:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'baseapcr.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('camilovillla@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'camilovillla@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Register.php(21): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-19 00:49:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'baseapcr.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'camilovillla@gmail.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'camilovillla@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('camilovillla@gmail.com', 'email', [...], null, 'email')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'camilovillla@gmail.com', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Register.php(21): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-19 00:49:44 --> [Caused by] mysqli_sql_exception: Table 'baseapcr.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'camilovillla@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'camilovillla@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'camilovillla@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('camilovillla@gmail.com', 'email', [...], null, 'email')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'camilovillla@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Register.php(21): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Register->index()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+ERROR - 2024-06-19 00:50:52 --> mysqli_sql_exception: Table 'baseapcr.users' doesn't exist in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('camilovillla@gm...', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'camilovillla@gm...', Array, Array)
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Register.php(21): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Register->index()
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-06-19 00:50:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'baseapcr.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('camilovillla@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'camilovillla@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Register.php(21): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-19 00:50:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'baseapcr.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'camilovillla@gmail.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'camilovillla@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('camilovillla@gmail.com', 'email', [...], null, 'email')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'camilovillla@gmail.com', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Register.php(21): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-19 00:50:52 --> [Caused by] mysqli_sql_exception: Table 'baseapcr.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'camilovillla@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'camilovillla@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'camilovillla@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('camilovillla@gmail.com', 'email', [...], null, 'email')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'camilovillla@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Register.php(21): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Register->index()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+ERROR - 2024-06-19 00:55:06 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\BaseModel.php(805): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(749): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Residente.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Residente->insert()
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-06-19 00:55:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (:identificacion:, :nombres_usuario:, :correo:, :torre:, :apartamento:, :celular:, :clave:)', [...], false)
+ 2 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Residente.php(41): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-19 00:55:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$sFc9.aLpkNuguIq7gwpiIeOR9WIo01l7abSM6bXQN8C.cJjYOG4tC\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$sFc9.aLpkNuguIq7gwpiIeOR9WIo01l7abSM6bXQN8C.cJjYOG4tC\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (:identificacion:, :nombres_usuario:, :correo:, :torre:, :apartamento:, :celular:, :clave:)', [...], false)
+ 4 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Residente.php(41): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-19 00:55:06 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$sFc9.aLpkNuguIq7gwpiIeOR9WIo01l7abSM6bXQN8C.cJjYOG4tC\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$sFc9.aLpkNuguIq7gwpiIeOR9WIo01l7abSM6bXQN8C.cJjYOG4tC\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$sFc9.aLpkNuguIq7gwpiIeOR9WIo01l7abSM6bXQN8C.cJjYOG4tC\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (:identificacion:, :nombres_usuario:, :correo:, :torre:, :apartamento:, :celular:, :clave:)', [...], false)
+ 5 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Residente.php(41): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->insert()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+ERROR - 2024-06-19 01:00:44 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\BaseModel.php(805): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(749): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Residente.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Residente->insert()
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-06-19 01:00:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (:identificacion:, :nombres_usuario:, :correo:, :torre:, :apartamento:, :celular:, :clave:)', [...], false)
+ 2 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Residente.php(41): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-19 01:00:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$zRBRAfiXSOzD6wbZNQ/ZQuwlIiWL0xcWMOoKHwyUpGwNyfqxtcHiK\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$zRBRAfiXSOzD6wbZNQ/ZQuwlIiWL0xcWMOoKHwyUpGwNyfqxtcHiK\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (:identificacion:, :nombres_usuario:, :correo:, :torre:, :apartamento:, :celular:, :clave:)', [...], false)
+ 4 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Residente.php(41): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-19 01:00:44 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$zRBRAfiXSOzD6wbZNQ/ZQuwlIiWL0xcWMOoKHwyUpGwNyfqxtcHiK\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$zRBRAfiXSOzD6wbZNQ/ZQuwlIiWL0xcWMOoKHwyUpGwNyfqxtcHiK\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$zRBRAfiXSOzD6wbZNQ/ZQuwlIiWL0xcWMOoKHwyUpGwNyfqxtcHiK\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (:identificacion:, :nombres_usuario:, :correo:, :torre:, :apartamento:, :celular:, :clave:)', [...], false)
+ 5 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Residente.php(41): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->insert()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+ERROR - 2024-06-19 01:04:27 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\BaseModel.php(805): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(749): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Residente.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Residente->insert()
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-06-19 01:04:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (:identificacion:, :nombres_usuario:, :correo:, :torre:, :apartamento:, :celular:, :clave:)', [...], false)
+ 2 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Residente.php(41): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-19 01:04:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$Ph.VhWfpciT99LS9RpOy7uCoFJ5s.XhEBuiyXdticD/EWwJBKdXM6\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$Ph.VhWfpciT99LS9RpOy7uCoFJ5s.XhEBuiyXdticD/EWwJBKdXM6\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (:identificacion:, :nombres_usuario:, :correo:, :torre:, :apartamento:, :celular:, :clave:)', [...], false)
+ 4 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Residente.php(41): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-19 01:04:27 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$Ph.VhWfpciT99LS9RpOy7uCoFJ5s.XhEBuiyXdticD/EWwJBKdXM6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$Ph.VhWfpciT99LS9RpOy7uCoFJ5s.XhEBuiyXdticD/EWwJBKdXM6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$Ph.VhWfpciT99LS9RpOy7uCoFJ5s.XhEBuiyXdticD/EWwJBKdXM6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (:identificacion:, :nombres_usuario:, :correo:, :torre:, :apartamento:, :celular:, :clave:)', [...], false)
+ 5 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Residente.php(41): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->insert()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+ERROR - 2024-06-19 01:42:55 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\BaseModel.php(805): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Model.php(749): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\app\Controllers\Residente.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Residente->insert()
+#9 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+#10 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PROYECTO-API\PROYECTO-API\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-06-19 01:42:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (:identificacion:, :nombres_usuario:, :correo:, :torre:, :apartamento:, :celular:, :clave:)', [...], false)
+ 2 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Residente.php(41): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-19 01:42:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$rOeBBrUzR33KkdUP6fqZceNHxAgi5Sj.HiXJGKh8uefOo4R3P4C1y\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$rOeBBrUzR33KkdUP6fqZceNHxAgi5Sj.HiXJGKh8uefOo4R3P4C1y\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (:identificacion:, :nombres_usuario:, :correo:, :torre:, :apartamento:, :celular:, :clave:)', [...], false)
+ 4 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Residente.php(41): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
+CRITICAL - 2024-06-19 01:42:55 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$rOeBBrUzR33KkdUP6fqZceNHxAgi5Sj.HiXJGKh8uefOo4R3P4C1y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$rOeBBrUzR33KkdUP6fqZceNHxAgi5Sj.HiXJGKh8uefOo4R3P4C1y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (\'1234567002\', \'Juan\', \'Octavio123@gmail.com\', \'2\', \'502\', \'123456789\', \'$2y$10$rOeBBrUzR33KkdUP6fqZceNHxAgi5Sj.HiXJGKh8uefOo4R3P4C1y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_residente` (`identificacion`, `nombres_usuario`, `correo`, `torre`, `apartamento`, `celular`, `clave`) VALUES (:identificacion:, :nombres_usuario:, :correo:, :torre:, :apartamento:, :celular:, :clave:)', [...], false)
+ 5 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Residente.php(41): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Residente->insert()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residente))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\PROYECTO-API\\PROYECTO-API\\public\\index.php')
