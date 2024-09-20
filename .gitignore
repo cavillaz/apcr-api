@@ -1,0 +1,40 @@
+# Ignorar los logs
+/application/logs/*
+
+# Ignorar caché
+/application/cache/*
+
+# Ignorar archivos de configuración de entorno local
+.env
+
+# Ignorar archivos de sesiones
+/application/sessions/*
+
+# Ignorar archivos y carpetas temporales del sistema operativo
+*.DS_Store
+Thumbs.db
+
+# Ignorar vendor si usas Composer para dependencias
+/vendor/*
+
+# Ignorar archivos autogenerados por Composer
+/composer.lock
+
+# Ignorar dependencias de Node.js (si estás usando npm)
+node_modules/
+
+# Ignorar dependencias del frontend si usas algún gestor
+/public/assets/node_modules/
+
+# Ignorar IDEs y editores
+.idea/
+.vscode/
+
+# Ignorar archivos personales o sensibles
+*.env
+*.sql
+*.sqlite
+
+# Ignorar las subidas de archivos (si no quieres que se incluyan en el repositorio)
+public/uploads/*
+
