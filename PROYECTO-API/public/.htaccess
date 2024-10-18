@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /ADSO_N_2617510_G2/docs/trim7/PROYECTO-API-LATEST/PROYECTO-API/public/
+    RewriteBase /
 
     # Si la solicitud no apunta a un archivo o directorio, redirigirla al index.php
     RewriteCond %{REQUEST_FILENAME} !-f
