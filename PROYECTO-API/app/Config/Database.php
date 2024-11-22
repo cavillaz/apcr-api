@@ -28,10 +28,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'debiandb',
-        'username'     => 'apcr',
+        'hostname'     => '127.0.0.1',
+        'username'     => 'root',
         'password'     => 'root',
-        'database'     => 'baseAPCR',
+        'database'     => 'proyecto_mvc',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
