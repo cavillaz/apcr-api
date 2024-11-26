@@ -11,7 +11,8 @@ $routes->group("api", function ($routes) {
     $routes->post("register", "Register::index");
     $routes->post("login", "Login::index");
     $routes->get("parqueadero", "Parqueadero::index", ['filter' => 'authFilter']);
-    $routes->post("parqueadero", "Parqueadero::update", ['filter' => 'authFilter']);
+    #$routes->post("parqueadero", "Parqueadero::update", ['filter' => 'authFilter']);
+    $routes->post("parqueadero", "Parqueadero::solicitarParqueadero", ['filter' => 'authFilter']);
     $routes->get("residente", "Residente::index", ['filter' => 'authFilter']);
     $routes->post("residente", "Residente::update", ['filter' => 'authFilter']);
     $routes->post("residente-insert", "Residente::insert", ['filter' => 'authFilter']);

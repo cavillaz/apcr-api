@@ -1,0 +1,119 @@
+CRITICAL - 2024-11-25 23:20:53 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 ROOTPATH/spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-11-25 23:20:53 --> ErrorException: Uncaught Error: Class "Locale" not found in /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/I18n/TimeTrait.php:74
+Stack trace:
+#0 /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct()
+#1 /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/Debug/ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-25 23:25:23 --> Error: Class "Locale" not found
+in SYSTEMPATH/CodeIgniter.php on line 218.
+ 1 ROOTPATH/spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-11-25 23:25:23 --> ErrorException: Uncaught Error: Class "Locale" not found in /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/I18n/TimeTrait.php:74
+Stack trace:
+#0 /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/I18n/TimeTrait.php(115): CodeIgniter\I18n\Time->__construct()
+#1 /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/Debug/ExceptionHandler.php(81): CodeIgniter\HTTP\Response->send()
+#4 /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH/I18n/TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-25 23:26:12 --> Error: Call to undefined function CodeIgniter\CLI\mb_strpos()
+in SYSTEMPATH/CLI/CLI.php on line 906.
+ 1 SYSTEMPATH/CLI/CLI.php(175): CodeIgniter\CLI\CLI::parseCommandLine()
+ 2 SYSTEMPATH/CLI/CLI.php(1153): CodeIgniter\CLI\CLI::init()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once('/home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/CLI/CLI.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/CLI/Console.php(60): CodeIgniter\Autoloader\Autoloader->loadClassmap()
+ 6 ROOTPATH/spark(99): CodeIgniter\CLI\Console->showHeader()
+CRITICAL - 2024-11-25 23:26:49 --> Error: Call to undefined function CodeIgniter\CLI\mb_strpos()
+in SYSTEMPATH/CLI/CLI.php on line 906.
+ 1 SYSTEMPATH/CLI/CLI.php(175): CodeIgniter\CLI\CLI::parseCommandLine()
+ 2 SYSTEMPATH/CLI/CLI.php(1153): CodeIgniter\CLI\CLI::init()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once('/home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/CLI/CLI.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/CLI/Console.php(60): CodeIgniter\Autoloader\Autoloader->loadClassmap()
+ 6 ROOTPATH/spark(99): CodeIgniter\CLI\Console->showHeader()
+CRITICAL - 2024-11-25 23:26:56 --> Error: Call to undefined function CodeIgniter\CLI\mb_strpos()
+in SYSTEMPATH/CLI/CLI.php on line 906.
+ 1 SYSTEMPATH/CLI/CLI.php(175): CodeIgniter\CLI\CLI::parseCommandLine()
+ 2 SYSTEMPATH/CLI/CLI.php(1153): CodeIgniter\CLI\CLI::init()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once('/home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/CLI/CLI.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/CLI/Console.php(60): CodeIgniter\Autoloader\Autoloader->loadClassmap()
+ 6 ROOTPATH/spark(99): CodeIgniter\CLI\Console->showHeader()
+CRITICAL - 2024-11-25 23:27:07 --> Error: Call to undefined function CodeIgniter\CLI\mb_strpos()
+in SYSTEMPATH/CLI/CLI.php on line 906.
+ 1 SYSTEMPATH/CLI/CLI.php(175): CodeIgniter\CLI\CLI::parseCommandLine()
+ 2 SYSTEMPATH/CLI/CLI.php(1153): CodeIgniter\CLI\CLI::init()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once('/home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/CLI/CLI.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/CLI/Console.php(60): CodeIgniter\Autoloader\Autoloader->loadClassmap()
+ 6 ROOTPATH/spark(99): CodeIgniter\CLI\Console->showHeader()
+CRITICAL - 2024-11-25 23:27:11 --> Error: Call to undefined function CodeIgniter\CLI\mb_strpos()
+in SYSTEMPATH/CLI/CLI.php on line 906.
+ 1 SYSTEMPATH/CLI/CLI.php(175): CodeIgniter\CLI\CLI::parseCommandLine()
+ 2 SYSTEMPATH/CLI/CLI.php(1153): CodeIgniter\CLI\CLI::init()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once('/home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/CLI/CLI.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/CLI/Console.php(60): CodeIgniter\Autoloader\Autoloader->loadClassmap()
+ 6 ROOTPATH/spark(99): CodeIgniter\CLI\Console->showHeader()
+CRITICAL - 2024-11-25 23:27:19 --> Error: Call to undefined function CodeIgniter\CLI\mb_strpos()
+in SYSTEMPATH/CLI/CLI.php on line 906.
+ 1 SYSTEMPATH/CLI/CLI.php(175): CodeIgniter\CLI\CLI::parseCommandLine()
+ 2 SYSTEMPATH/CLI/CLI.php(1153): CodeIgniter\CLI\CLI::init()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once('/home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/CLI/CLI.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/CLI/Console.php(60): CodeIgniter\Autoloader\Autoloader->loadClassmap()
+ 6 ROOTPATH/spark(99): CodeIgniter\CLI\Console->showHeader()
+CRITICAL - 2024-11-25 23:27:46 --> Error: Call to undefined function CodeIgniter\CLI\mb_strpos()
+in SYSTEMPATH/CLI/CLI.php on line 906.
+ 1 SYSTEMPATH/CLI/CLI.php(175): CodeIgniter\CLI\CLI::parseCommandLine()
+ 2 SYSTEMPATH/CLI/CLI.php(1153): CodeIgniter\CLI\CLI::init()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once('/home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/CLI/CLI.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/CLI/Console.php(60): CodeIgniter\Autoloader\Autoloader->loadClassmap()
+ 6 ROOTPATH/spark(99): CodeIgniter\CLI\Console->showHeader()
+CRITICAL - 2024-11-25 23:29:50 --> Error: Call to undefined function CodeIgniter\CLI\mb_strpos()
+in SYSTEMPATH/CLI/CLI.php on line 906.
+ 1 SYSTEMPATH/CLI/CLI.php(175): CodeIgniter\CLI\CLI::parseCommandLine()
+ 2 SYSTEMPATH/CLI/CLI.php(1153): CodeIgniter\CLI\CLI::init()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once('/home/cvilla/Documentos/Sena/apcr-api/PROYECTO-API/vendor/codeigniter4/framework/system/CLI/CLI.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/CLI/Console.php(60): CodeIgniter\Autoloader\Autoloader->loadClassmap()
+ 6 ROOTPATH/spark(99): CodeIgniter\CLI\Console->showHeader()
+CRITICAL - 2024-11-25 23:37:21 --> Error: Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 137.
+ 1 SYSTEMPATH/Database/Database.php(55): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Common.php(365): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH/Database/MigrationRunner.php(144): db_connect()
+ 5 SYSTEMPATH/Config/Services.php(417): CodeIgniter\Database\MigrationRunner->__construct()
+ 6 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::migrations()
+ 7 SYSTEMPATH/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+ 8 SYSTEMPATH/Config/Services.php(412): CodeIgniter\Config\BaseService::getSharedInstance()
+ 9 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::migrations()
+10 SYSTEMPATH/Commands/Database/Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic()
+11 SYSTEMPATH/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+12 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+13 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()

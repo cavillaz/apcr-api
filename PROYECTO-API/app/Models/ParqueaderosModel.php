@@ -4,17 +4,17 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ParqueaderoModel extends Model
+class ParqueaderosModel extends Model
 {
     protected $DBGroup          = "default";
-    protected $table            = 'tb_historial_parqueaderos';
-    protected $primaryKey       = 'parqueadero_id';
+    protected $table            = 'tb_parqueaderos';
+    protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['nombre_persona', 'documento_persona', 'tipo_vehiculo', 'placa_vehiculo', 'tipo_parqueadero', 'estado'];
+    protected $allowedFields    = ['numero_parqueadero', 'nombre_parqueadero', 'estado'];
 
     
 
