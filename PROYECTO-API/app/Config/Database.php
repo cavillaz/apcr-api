@@ -29,7 +29,7 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => '127.0.0.1',
-        'username'     => 'root',
+        'username'     => 'apcr',
         'password'     => 'root',
         'database'     => 'proyecto_mvc',
         'DBDriver'     => 'MySQLi',
