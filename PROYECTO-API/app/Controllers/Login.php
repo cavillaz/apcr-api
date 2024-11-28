@@ -13,6 +13,13 @@ class Login extends BaseController
 
     public function index()
     {
+        header("Access-Control-Allow-Origin: *");
+        header("Access-Control-Allow-Headers: Content-Type, Authorization");
+        header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
+
+        if ($this->request->getMethod() === 'options') {
+        return $this->respond([], 200);
+    }
         $userModel = new UserModel();
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
