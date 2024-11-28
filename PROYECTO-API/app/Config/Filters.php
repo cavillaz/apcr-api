@@ -36,8 +36,8 @@ class Filters extends BaseConfig
      */
     public array $globals = [
         'before' => [
-        'cors', // Activa el filtro de CORS para todas las solicitudes
-    ],
+            'cors',
+        ],
         'after' => [],
     ];
 
