@@ -36,16 +36,9 @@ class Filters extends BaseConfig
      */
     public array $globals = [
         'before' => [
-            'cors',
-            // 'honeypot',
-            // 'csrf',
-            // 'invalidchars',
-        ],
-        'after' => [
-            'toolbar',
-            // 'honeypot',
-            // 'secureheaders',
-        ],
+        'cors', // Activa el filtro de CORS para todas las solicitudes
+    ],
+        'after' => [],
     ];
 
     /**
