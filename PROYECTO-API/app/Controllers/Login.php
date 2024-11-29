@@ -13,6 +13,8 @@ class Login extends BaseController
 
     public function index()
     {
+        file_put_contents('/tmp/debug.log', "Request method: " . $this->request->getMethod() . "\n", FILE_APPEND);
+        file_put_contents('/tmp/debug.log', "Request data: " . json_encode($this->request->getJSON()) . "\n", FILE_APPEND);
         // Configurar cabeceras CORS
         $this->setCorsHeaders();
 
