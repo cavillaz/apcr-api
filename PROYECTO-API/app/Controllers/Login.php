@@ -72,7 +72,7 @@ class Login extends BaseController
 
     private function setCorsHeaders()
     {
-        header("Access-Control-Allow-Origin: *"); // Cambiar "*" por el dominio del cliente en producción
+        header("Access-Control-Allow-Origin: https://01de-34-170-125-148.ngrok-free.app"); // Cambiar "*" por el dominio del cliente en producción
         header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
         header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
         header("Access-Control-Allow-Credentials: true"); // Si estás manejando cookies o tokens
