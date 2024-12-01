@@ -9,11 +9,17 @@ use \Firebase\JWT\JWT;
 
 class Login extends BaseController
 {
+    
     use ResponseTrait;
 
     // Elimina setCorsHeaders() del archivo Login.php y ajusta así el método index:
 public function index()
 {
+    header("Access-Control-Allow-Origin: *");
+    header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
+    header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE, PATCH");
+    header("Access-Control-Allow-Credentials: true");
+    
     file_put_contents('/tmp/debug.log', "Request method: " . $this->request->getMethod() . "\n", FILE_APPEND);
     file_put_contents('/tmp/debug.log', "Request data: " . json_encode($this->request->getJSON()) . "\n", FILE_APPEND);
 
