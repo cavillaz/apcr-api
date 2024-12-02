@@ -34,7 +34,7 @@ class Parqueadero extends BaseController
     // Verificar si el parqueadero ya está reservado o en uso
     $existingReservation = $historialModel->where('documento_persona', $documento_persona)
         ->orWhere('placa_vehiculo', $placa_vehiculo)
-        ->whereIn('estado', ['pendiente_aprobacion', 'ocupado'])
+        ->where('estado', 'ocupado')
         ->first();
 
     if ($existingReservation) {
