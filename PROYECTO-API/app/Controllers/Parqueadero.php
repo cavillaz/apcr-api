@@ -21,11 +21,15 @@ class Parqueadero extends BaseController
             return $this->failServerError('Error al obtener los datos de parqueaderos: ' . $e->getMessage());
         }
     }
+    
 
     public function solicitarParqueadero()
     {
         try {
             $data = $this->request->getJSON(true);
+
+            log_message('debug', 'Datos recibidos: ' . json_encode($data));
+            log_message('debug', 'Verificando reservas existentes...');
 
             // Validar los datos requeridos
             $requiredFields = ['nombre_persona', 'documento_persona', 'tipo_vehiculo', 'placa_vehiculo', 'tipo_parqueadero'];
