@@ -6,24 +6,21 @@ use CodeIgniter\API\ResponseTrait;
 use App\Models\ResidenteModel;
 use CodeIgniter\RESTful\ResourceController;
 
-#class Residente extends BaseController
 class Residente extends ResourceController
 {
-    
-    
+    use ResponseTrait;
+
     public function index()
     {
         $residente = new ResidenteModel();
         $data['tb_usuarios'] = $residente->orderBy('id')->findAll();
-        return json_encode($data);
+        return $this->respond($data);
     }
 
     public function insert()
     {
-        // Obtener datos del cuerpo de la solicitud
-        $data = $this->request->getJSON(true); // Convertir JSON a array asociativo
+        $data = $this->request->getJSON(true);
         
-        // Validar campos obligatorios
         if (
             empty($data['correo']) ||
             empty($data['clave']) ||
@@ -34,10 +31,7 @@ class Residente extends ResourceController
             return $this->fail('Faltan datos obligatorios.', 400);
         }
 
-        // Cargar el modelo
-        $usuarioModel = new \App\Models\ResidenteModel();
-
-        // Verificar si el correo o número de documento ya existen
+        $usuarioModel = new ResidenteModel();
         $existeUsuario = $usuarioModel
             ->where('correo', $data['correo'])
             ->orWhere('numero_documento', $data['numero_documento'])
@@ -50,31 +44,80 @@ class Residente extends ResourceController
             ], 409);
         }
 
-        // Crear usuario
         $nuevoUsuario = [
             'correo'           => $data['correo'],
             'clave'            => password_hash($data['clave'], PASSWORD_DEFAULT),
             'nombre_completo'  => $data['nombre_completo'],
             'numero_documento' => $data['numero_documento'],
             'numero_celular'   => $data['numero_celular'],
-            'id_torre'         => isset($data['torre']) ? $data['torre'] : null,
-            'id_apartamento'   => isset($data['apartamento']) ? $data['apartamento'] : null,
-            'rol'              => 'residente',
+            'id_torre'         => $data['torre'] ?? null,
+            'id_apartamento'   => $data['apartamento'] ?? null,
+            'rol'              => $data['rol'] ?? 'residente',
         ];
 
         if ($usuarioModel->insert($nuevoUsuario)) {
-            return $this->respond([
-                'status' => 201,
-                'message' => 'Usuario registrado exitosamente.',
-            ], 201);
+            return $this->respondCreated(['message' => 'Usuario registrado exitosamente.']);
         } else {
-            return $this->respond([
-                'status' => 500,
-                'message' => 'Error al registrar el usuario.',
-            ], 500);
+            return $this->fail('Error al registrar el usuario.', 500);
         }
+    }
+
+    public function update($id = null)
+{
+    $usuarioModel = new \App\Models\ResidenteModel();
+
+    // Verificar si el usuario existe
+    $usuario = $usuarioModel->find($id);
+    if (!$usuario) {
+        return $this->respond([
+            'status' => 404,
+            'message' => 'Usuario no encontrado.'
+        ], 404);
+    }
+
+    // Obtener los datos del cuerpo de la solicitud
+    $data = $this->request->getJSON(true);
+
+    // Actualizar los campos necesarios
+    $updateData = [
+        'correo'           => $data['correo'],
+        'nombre_completo'  => $data['nombre_completo'],
+        'numero_documento' => $data['numero_documento'],
+        'numero_celular'   => $data['numero_celular'],
+    ];
+
+    // Verificar si se proporciona una clave para actualizar
+    if (!empty($data['clave'])) {
+        $updateData['clave'] = password_hash($data['clave'], PASSWORD_DEFAULT);
+    }
+
+    if ($usuarioModel->update($id, $updateData)) {
+        return $this->respond([
+            'status' => 200,
+            'message' => 'Usuario actualizado exitosamente.'
+        ], 200);
+    } else {
+        return $this->respond([
+            'status' => 500,
+            'message' => 'Error al actualizar el usuario.'
+        ], 500);
     }
 }
 
+    
 
+    public function delete($id = null)
+    {
+        $usuarioModel = new ResidenteModel();
 
+        if (!$usuarioModel->find($id)) {
+            return $this->failNotFound('Usuario no encontrado.');
+        }
+
+        if ($usuarioModel->delete($id)) {
+            return $this->respondDeleted(['message' => 'Usuario eliminado exitosamente.']);
+        } else {
+            return $this->fail('Error al eliminar el usuario.', 500);
+        }
+    }
+}
