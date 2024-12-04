@@ -106,18 +106,33 @@ class Residente extends ResourceController
 
     
 
-    public function delete($id = null)
-    {
-        $usuarioModel = new ResidenteModel();
+public function delete($id = null)
+{
+    $usuarioModel = new \App\Models\ResidenteModel();
 
-        if (!$usuarioModel->find($id)) {
-            return $this->failNotFound('Usuario no encontrado.');
-        }
-
-        if ($usuarioModel->delete($id)) {
-            return $this->respondDeleted(['message' => 'Usuario eliminado exitosamente.']);
-        } else {
-            return $this->fail('Error al eliminar el usuario.', 500);
-        }
+    // Verificar si el usuario existe
+    $usuario = $usuarioModel->find($id);
+    if (!$usuario) {
+        return $this->respond([
+            'status' => 404,
+            'message' => 'Usuario no encontrado.',
+        ], 404);
     }
+
+    // Eliminar el usuario
+    if ($usuarioModel->delete($id)) {
+        return $this->respond([
+            'status' => 200,
+            'message' => 'Usuario eliminado correctamente.',
+        ], 200);
+    } else {
+        return $this->respond([
+            'status' => 500,
+            'message' => 'Error al eliminar el usuario.',
+        ], 500);
+    }
+}
+
+
+
 }
