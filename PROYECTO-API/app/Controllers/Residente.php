@@ -12,10 +12,15 @@ class Residente extends ResourceController
 
     public function index()
     {
-        $residente = new ResidenteModel();
-        $data['tb_usuarios'] = $residente->orderBy('id')->findAll();
-        return $this->respond($data);
+        $model = new ResidenteModel();
+        $usuarios = $model->findAll();
+    
+        return $this->response->setJSON([
+            'status' => 200,
+            'tb_usuarios' => $usuarios,
+        ]);
     }
+    
 
     public function insert()
     {
