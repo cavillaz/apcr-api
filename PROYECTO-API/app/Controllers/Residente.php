@@ -17,33 +17,41 @@ class Residente extends ResourceController
         return $this->respond($data);
     }
 
-    public function insert() {
-        // Verifica que todos los datos requeridos estén presentes
+    public function insert()
+    {
         $input = $this->request->getPost();
     
-        if (!$input['correo'] || !$input['clave'] || !$input['nombre_completo']) {
-            return $this->response->setJSON([
-                'status' => 400,
-                'message' => 'Datos incompletos enviados al servidor.'
-            ]);
+        // Validación para asegurarte de que los campos requeridos están presentes
+        $requiredFields = ['correo', 'clave', 'nombre_completo', 'numero_documento', 'numero_celular'];
+        foreach ($requiredFields as $field) {
+            if (!isset($input[$field])) {
+                return $this->response->setJSON([
+                    'status' => 400,
+                    'message' => "El campo '$field' es requerido y no fue enviado."
+                ]);
+            }
         }
     
-        // Lógica de inserción en la base de datos (ejemplo)
-        $usuarioModel = new ResidenteModel();
+        // Crear instancia del modelo
+        $residenteModel = new \App\Models\ResidenteModel();
     
         try {
-            $usuarioModel->insert($input);
+            // Insertar datos
+            $residenteModel->insert($input);
+    
             return $this->response->setJSON([
                 'status' => 201,
                 'message' => 'Usuario registrado exitosamente.'
             ]);
         } catch (\Exception $e) {
+            // Manejar errores de la base de datos u otros problemas
             return $this->response->setJSON([
                 'status' => 500,
                 'message' => 'Error interno del servidor: ' . $e->getMessage()
             ]);
         }
     }
+    
     
 
     public function update($id = null)

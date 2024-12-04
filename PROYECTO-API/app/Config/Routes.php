@@ -16,9 +16,10 @@ $routes->group("api", function ($routes) {
     $routes->get("residente", "Residente::index", ['filter' => 'authFilter']);
     $routes->put('residente/(:num)', 'Residente::update/$1', ['filter' => 'authFilter']);
     #$routes->put("residente", "Residente::update", ['filter' => 'authFilter']);
-    $routes->post("residente-insert", "Residente::insert", ['filter' => 'authFilter']);
+    $routes->post('residente-insert', 'Residente::insert', ['filter' => 'authFilter']);
     #$routes->post("residente-delete", "Residente::delete", ['filter' => 'authFilter']);
     $routes->delete('residente/(:num)', 'Residente::delete/$1', ['filter' => 'authFilter']);
+
 
 	$routes->get('test', function () {
     	return 'API is working';
