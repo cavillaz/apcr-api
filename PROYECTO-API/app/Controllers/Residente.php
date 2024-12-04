@@ -17,50 +17,34 @@ class Residente extends ResourceController
         return $this->respond($data);
     }
 
-    public function insert()
-    {
-        $data = $this->request->getJSON(true);
-        
-        if (
-            empty($data['correo']) ||
-            empty($data['clave']) ||
-            empty($data['nombre_completo']) ||
-            empty($data['numero_documento']) ||
-            empty($data['numero_celular'])
-        ) {
-            return $this->fail('Faltan datos obligatorios.', 400);
+    public function insert() {
+        // Verifica que todos los datos requeridos estén presentes
+        $input = $this->request->getPost();
+    
+        if (!$input['correo'] || !$input['clave'] || !$input['nombre_completo']) {
+            return $this->response->setJSON([
+                'status' => 400,
+                'message' => 'Datos incompletos enviados al servidor.'
+            ]);
         }
-
+    
+        // Lógica de inserción en la base de datos (ejemplo)
         $usuarioModel = new ResidenteModel();
-        $existeUsuario = $usuarioModel
-            ->where('correo', $data['correo'])
-            ->orWhere('numero_documento', $data['numero_documento'])
-            ->first();
-
-        if ($existeUsuario) {
-            return $this->respond([
-                'status' => 409,
-                'message' => 'El correo o número de documento ya están registrados.',
-            ], 409);
-        }
-
-        $nuevoUsuario = [
-            'correo'           => $data['correo'],
-            'clave'            => password_hash($data['clave'], PASSWORD_DEFAULT),
-            'nombre_completo'  => $data['nombre_completo'],
-            'numero_documento' => $data['numero_documento'],
-            'numero_celular'   => $data['numero_celular'],
-            'id_torre'         => $data['torre'] ?? null,
-            'id_apartamento'   => $data['apartamento'] ?? null,
-            'rol'              => $data['rol'] ?? 'residente',
-        ];
-
-        if ($usuarioModel->insert($nuevoUsuario)) {
-            return $this->respondCreated(['message' => 'Usuario registrado exitosamente.']);
-        } else {
-            return $this->fail('Error al registrar el usuario.', 500);
+    
+        try {
+            $usuarioModel->insert($input);
+            return $this->response->setJSON([
+                'status' => 201,
+                'message' => 'Usuario registrado exitosamente.'
+            ]);
+        } catch (\Exception $e) {
+            return $this->response->setJSON([
+                'status' => 500,
+                'message' => 'Error interno del servidor: ' . $e->getMessage()
+            ]);
         }
     }
+    
 
     public function update($id = null)
 {
