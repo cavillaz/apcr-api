@@ -19,9 +19,11 @@ class Residente extends ResourceController
 
     public function insert()
     {
-        $input = $this->request->getPost();
+        // Obtener los datos como JSON
+        $input = $this->request->getJSON(true);
+        log_message('debug', 'Datos recibidos: ' . json_encode($input));
     
-        // Validación para asegurarte de que los campos requeridos están presentes
+        // Validar que los campos requeridos están presentes
         $requiredFields = ['correo', 'clave', 'nombre_completo', 'numero_documento', 'numero_celular'];
         foreach ($requiredFields as $field) {
             if (!isset($input[$field])) {
@@ -36,7 +38,7 @@ class Residente extends ResourceController
         $residenteModel = new \App\Models\ResidenteModel();
     
         try {
-            // Insertar datos
+            // Insertar los datos
             $residenteModel->insert($input);
     
             return $this->response->setJSON([
@@ -44,13 +46,13 @@ class Residente extends ResourceController
                 'message' => 'Usuario registrado exitosamente.'
             ]);
         } catch (\Exception $e) {
-            // Manejar errores de la base de datos u otros problemas
             return $this->response->setJSON([
                 'status' => 500,
-                'message' => 'Error interno del servidor: ' . $e->getMessage()
+                'message' => 'Error al insertar usuario: ' . $e->getMessage()
             ]);
         }
     }
+    
     
     
 
